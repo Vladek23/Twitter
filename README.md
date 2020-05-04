@@ -8,10 +8,6 @@ Functionalities:
 - register and login 
 - running the sample database
 
-# Screenshots
-![images/Screenshot1.png]
-![images/Screenshot2.png]
-
 # Tech used
 Application code: JAVA, JavaScript, jQuery, HTML, CSS
 
