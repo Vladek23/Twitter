@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2F2FA2;
+    color: white;
+}
+
+div.containerMain {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.messageText {
+    font-style: italic;
+}
+
+/*TABLES*/
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+thead tr td {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    height: 50px;
+}
+
+td {
+    border: 1px solid #553D67;
+    padding: 10px;
+}
+
+table thead tr {
+    background-color: #242582;
+}
+
+table tbody tr.headOfTBody1 {
+    background-color: #242582;
+    height: 75px;
+    font-weight: bold;
+    border-top: 5px solid #553D67;
+}
+
+table tbody tr.headOfTBody2 {
+    background-color: #242582;
+    height: 70px;
+}
+
+table tbody tr {
+    height: 50px;
+}
+table tfoot tr {
+    height: 75px;
+}
+
+/*FORMS*/
+.formTextarea {
+    width: 100%;
+    padding: 10px;
+}
+
+/*HEADER PAGE*/
+.header {
+    background-color: #242582;
+    border-bottom: 1px solid #553D67;
+    margin: 0 0 50px;
+    padding: 10px 50px 10px;
+}
+.header p {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+div.loggedUserInfo p {
+    text-align: right;
+    font-style: italic;
+    font-size: 10px;
+    color: #4d4d4d;
+    letter-spacing: normal;
+}
+
+ul.menuHeader {
+    list-style: none;
+}
+
+ul.menuHeader li {
+    border: 1px solid #553D67;
+    width: 150px;
+    height: 50px;
+    background-color: #242582;
+    display: inline-block;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ul.menuHeader li a:link {
+    text-decoration: none;
+}
+
+ul.menuHeader li a:hover {
+    cursor: pointer;
+    color: #F64C72;
+}
+
+/*FOOTER PAGE*/
+.footer {
+    background-color: #242582;
+    border-top: 1px solid #553D67;
+    margin: 50px 0 10px;
+    padding: 10px 50px 10px;
+}
+.footer p {
+    text-align: right;
+    font-style: italic;
+}
+a {
+    color: #F64C72;
+}
